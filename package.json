@@ -1,0 +1,28 @@
+{
+  "name": "portafolio-back",
+  "version": "1.0.0",
+  "description": "backend para proyecto de proyectos con MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "keywords": [
+    "MongoDb",
+    "Express",
+    "Node"
+  ],
+  "author": "Jesús Olmedo",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.12",
+    "mongoose-paginate-v2": "^1.3.13"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  }
+}
