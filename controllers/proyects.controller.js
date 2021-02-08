@@ -13,7 +13,11 @@ const index = async(req, res = response) => {
     try {
         const proyects = await Proyects.paginate( 
             { },
-            { limit, page }
+            { 
+                sort: { important: 'asc' },
+                limit, 
+                page 
+            }
         );
 
         res.status(200).json({

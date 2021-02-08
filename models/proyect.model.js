@@ -29,6 +29,10 @@ const ProyectSchema = Schema({
         ],
         required: true
     },
+    important: {
+        type: Number,
+        required: true,
+    },
     github: {
         type: String,
     },
