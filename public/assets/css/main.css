@@ -1,0 +1,249 @@
+html,body{
+    height: 100% !important;
+    margin: 0 !important;
+
+}
+
+footer {
+    padding: 10% 0px;
+    border-top: #65686d solid 1px;
+}
+
+.btn:hover{
+    opacity: 0.8 !important;
+}
+
+.sidebar {
+    position: fixed;    
+    bottom: 0;    
+    z-index: 100;
+    padding: 4vw 0px;    
+}
+
+.title-home{
+    font-size: 8vh;
+}
+
+.h-link:hover {
+    width: 100%;
+    border-bottom: 2px solid #f25757;
+}
+
+.navbar-nav{
+    flex-direction: row !important;
+    justify-content: center !important;
+}
+
+.h-link {
+    width: 10%;
+    border-bottom: 2px solid transparent;
+    transition: all .50s cubic-bezier(.694,.048,.335,1);   
+}
+
+
+.text-long{
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.4em; 
+}
+
+.section{
+    margin-bottom: 6em;
+}
+
+.content{
+    position: relative;    
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+.text-gray{
+    color: #c4c8cc;
+}
+
+.ngx-gallery { 
+    display: inline-block;    
+    border-radius: 0.3rem !important;
+    border: 2px solid #31333d !important;    
+}
+
+.application-loading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+ 
+  .trinity-rings-spinner, .trinity-rings-spinner * {
+    box-sizing: border-box;
+  }
+
+  .trinity-rings-spinner {
+    height: 88px;
+    width: 88px;
+    padding: 3px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  .trinity-rings-spinner .circle {
+    position:absolute;
+    display:block;
+    border-radius:50%;
+    border: 3px solid #f25757;
+    opacity: 1;
+  }
+
+  .trinity-rings-spinner .circle:nth-child(1) {
+    height: 80px;
+    width: 80px;
+    animation : trinity-rings-spinner-circle1-animation 1.5s infinite linear;
+    border-width: 3px;
+  }
+  .trinity-rings-spinner .circle:nth-child(2) {
+    height: calc(80px * 0.65);
+    width: calc(80px * 0.65);
+    animation : trinity-rings-spinner-circle2-animation 1.5s infinite linear;
+    border-width: 2px;
+  }
+  .trinity-rings-spinner .circle:nth-child(3) {
+    height: calc(80px * 0.1);
+    width: calc(80px * 0.1);
+    animation:trinity-rings-spinner-circle3-animation 1.5s infinite linear;
+    border-width: 1px;
+  }
+
+  @keyframes trinity-rings-spinner-circle1-animation{
+    0% {
+      transform: rotateZ(20deg) rotateY(0deg);
+    }
+    100% {
+      transform: rotateZ(100deg) rotateY(360deg);
+    }
+  }
+  @keyframes trinity-rings-spinner-circle2-animation{
+    0% {
+      transform: rotateZ(100deg) rotateX(0deg);
+    }
+    100% {
+      transform: rotateZ(0deg) rotateX(360deg);
+    }
+  }
+  @keyframes trinity-rings-spinner-circle3-animation{
+    0% {
+      transform: rotateZ(100deg) rotateX(-360deg);
+    }
+    100% {
+      transform: rotateZ(-360deg) rotateX(360deg);
+    }
+  }
+/* Animaciones */
+:root {
+    --animate-duration: 1s;
+    --animate-delay: 1s;
+    --animate-repeat: 1;
+  }
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-duration: var(--animate-duration);
+    animation-duration: var(--animate-duration);
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@media screen and (min-width: 768px) {
+      
+    .animated.delay-1s {
+        animation-delay: var(--animate-delay);
+    }
+    
+    .animated.delay-2s {
+        animation-delay: calc(var(--animate-delay) * 2);
+    }
+    
+    .animated.delay-3s {
+        animation-delay: calc(var(--animate-delay) * 3);
+    }
+    
+    .animated.delay-4s {
+        animation-delay: calc(var(--animate-delay) * 4);
+    }
+    
+    .animated.delay-5s {
+        animation-delay: calc(var(--animate-delay) * 5);
+    }
+    
+    .animated.faster {
+        animation-duration: calc(var(--animate-duration) / 2);
+    }
+    
+    .animated.fast {
+        animation-duration: calc(var(--animate-duration) * 0.8);
+    }
+    
+    .animated.slow {
+        animation-duration: calc(var(--animate-duration) * 2);
+    }
+    
+    .animated.slower {
+        animation-duration: calc(var(--animate-duration) * 3);
+    }  
+
+    .fadeInDown {
+        animation-name: fadeInDown;
+    }
+
+    .fadeIn {
+        animation-name: fadeIn;
+    }
+
+    .fadeInUp {
+        animation-name: fadeInUp;
+    }
+}
+
+  
+@keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translate3d(0, -100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+}
+}
+
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+}
+  
+  
+  
+  
+  

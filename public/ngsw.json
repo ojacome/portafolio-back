@@ -1,0 +1,123 @@
+{
+  "configVersion": 1,
+  "timestamp": 1617579335244,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/4.5b10aa98d5dc9e2e83ac.js",
+        "/favicon.ico",
+        "/index.html",
+        "/main.c9f450eb341f25b1f164.js",
+        "/manifest.webmanifest",
+        "/polyfills.8c151b8375e767ff858f.js",
+        "/runtime.ad4196ace31a88a75c73.js",
+        "/scripts.446166084c8cf8de5394.js",
+        "/styles.f531bc9ea0fd817c317a.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/css/hover-min.css",
+        "/assets/css/main.css",
+        "/assets/fonts/generator_config.txt",
+        "/assets/fonts/leaguespartan-bold-webfont.woff",
+        "/assets/fonts/leaguespartan-bold-webfont.woff2",
+        "/assets/fonts/stylesheet.css",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/icons/ios/icon-120.png",
+        "/assets/icons/ios/icon-152x152.png",
+        "/assets/icons/ios/icon-167.png",
+        "/assets/icons/ios/icon-180.png",
+        "/assets/img/hoja_de_vida.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "api",
+      "patterns": [
+        "https:\\/\\/jesus-portafolio\\.herokuapp\\.com\\/.*",
+        "http:\\/\\/localhost:3000\\/.*"
+      ],
+      "strategy": "performance",
+      "maxSize": 3,
+      "maxAge": 604800000,
+      "timeoutMs": 2000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/4.5b10aa98d5dc9e2e83ac.js": "31a28f2ab0766b4060438ba602048d38d6ecef9c",
+    "/assets/css/hover-min.css": "dc6484d07f8919168adec84b9adae52c7b496d9f",
+    "/assets/css/main.css": "35611a7d472aed5e026e0722ea2b41945d24ae37",
+    "/assets/fonts/generator_config.txt": "d590b7bb9fd53b07d3e95f869357ce2949bb7104",
+    "/assets/fonts/leaguespartan-bold-webfont.woff": "13b5d981cc14f6ee49484030175adcb1d7aa9c3c",
+    "/assets/fonts/leaguespartan-bold-webfont.woff2": "2f8b3a3b1ec0b3785099c368d83198e15f2c503a",
+    "/assets/fonts/stylesheet.css": "c091dfea9647482122e17ac38e6fa9f4828b406f",
+    "/assets/icons/icon-128x128.png": "7db13d3cf9b754f4a30a4b95f85201ed91e35a2e",
+    "/assets/icons/icon-144x144.png": "7721cb69a562a2392e32e406a220130ab5143bfe",
+    "/assets/icons/icon-152x152.png": "f97e58e78dd4271489113ee8581cf33d06eb1940",
+    "/assets/icons/icon-192x192.png": "27348112ed4edb688fa9fdcb8a817d9f3079dbab",
+    "/assets/icons/icon-384x384.png": "8c9ca59d0b1e74ac68bdccb0880296fba157bd9b",
+    "/assets/icons/icon-512x512.png": "0c3b2dd58afea02f6fab6fa3952c37048e2f7031",
+    "/assets/icons/icon-72x72.png": "a53587b5669d77499ea36234a51aa5c75e952dcd",
+    "/assets/icons/icon-96x96.png": "eaa2b9e416f7378cc25968abbf38ab5c8070dfb9",
+    "/assets/icons/ios/icon-120.png": "4262882e019c6c0bfc9cf2945b76743e985354fb",
+    "/assets/icons/ios/icon-152x152.png": "f97e58e78dd4271489113ee8581cf33d06eb1940",
+    "/assets/icons/ios/icon-167.png": "998c8f85d6d6edf6ff1c4be4b3c9c34442f961e8",
+    "/assets/icons/ios/icon-180.png": "1d5c9a7660cee3228ba8a7e2cf899a2bce8e46b5",
+    "/assets/img/hoja_de_vida.jpg": "1c083013242c2ec3f2668d920552b41dc1d39a58",
+    "/favicon.ico": "f5a726715ca63e8bc99b2090651428422dd0656e",
+    "/index.html": "f042320d55d03b16754099dd93e8414b66debfc9",
+    "/main.c9f450eb341f25b1f164.js": "bc182c6a69e84a4408754768f62059a718d9fb08",
+    "/manifest.webmanifest": "9a407ba8d97f633c533a789eef2cce8e382bf905",
+    "/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
+    "/runtime.ad4196ace31a88a75c73.js": "da4e98d8c0e930edcf75d98391cad928f701f597",
+    "/scripts.446166084c8cf8de5394.js": "9b680e597cd9a1e7b4a0a6fee436da0ff465f61d",
+    "/styles.f531bc9ea0fd817c317a.css": "4a105066c5574b62ba921a4c4334ff95bb366064"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
