@@ -2,6 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const morgan = require('morgan');
 const cors = require('cors');
+const forceSsl = require('force-ssl-heroku');
 const { dbConnection } = require('./database/config')
 
 
@@ -19,6 +20,9 @@ app.use( express.json() );
 
 // Base de datos
 dbConnection();
+
+//redirect https heroku
+app.use(forceSsl);
 
 // Directorio público
 app.use( express.static('public') );
