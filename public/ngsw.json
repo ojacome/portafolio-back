@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1617579335244,
+  "timestamp": 1619189795850,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -61,10 +61,10 @@
         "https:\\/\\/jesus-portafolio\\.herokuapp\\.com\\/.*",
         "http:\\/\\/localhost:3000\\/.*"
       ],
-      "strategy": "performance",
+      "strategy": "freshness",
       "maxSize": 3,
       "maxAge": 604800000,
-      "timeoutMs": 2000,
+      "timeoutMs": 10000,
       "cacheQueryOptions": {
         "ignoreVary": true
       },
@@ -95,7 +95,7 @@
     "/favicon.ico": "f5a726715ca63e8bc99b2090651428422dd0656e",
     "/index.html": "f042320d55d03b16754099dd93e8414b66debfc9",
     "/main.c9f450eb341f25b1f164.js": "bc182c6a69e84a4408754768f62059a718d9fb08",
-    "/manifest.webmanifest": "9a407ba8d97f633c533a789eef2cce8e382bf905",
+    "/manifest.webmanifest": "07580d3ecfc7e0163fd9a0a48e7d0364ecd21752",
     "/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
     "/runtime.ad4196ace31a88a75c73.js": "da4e98d8c0e930edcf75d98391cad928f701f597",
     "/scripts.446166084c8cf8de5394.js": "9b680e597cd9a1e7b4a0a6fee436da0ff465f61d",
